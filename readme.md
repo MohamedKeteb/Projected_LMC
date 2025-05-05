@@ -1,4 +1,4 @@
-# 📚 On Constrained Sampling Project
+# :game_die: On Constrained Sampling Project
 
 **Authors**: Yassine Boukhateb, Mohamed Keteb, and Imrane Zaakour
 
@@ -9,10 +9,9 @@
 This GitHub repository contains a `presentation_MAPLA` on the **Constrained Sampling Problem**. The project introduces two key algorithms:
 
 1. **Projected Langevin Monte Carlo (PLMC)**  
-   A method for solving constrained sampling problems using Langevin dynamics.
-   
+    A method for solving constrained sampling problems using Langevin dynamics, consisting of performing a Langevin step followed by a projection onto the support of the target, which is a convex set.   
 2. **Metropolis-Adjusted Preconditioned Langevin Algorithm (MAPLA)**  
-   An advanced approach that enhances the efficiency of Langevin dynamics through preconditioning and Metropolis adjustments.
+      An advanced approach that enhances the efficiency of Langevin dynamics through preconditioning and Metropolis adjustments. Specifically, we precondition the Langevin algorithm by introducing a metric that accounts for the geometry of the support, and we apply a Metropolis filter to correct the Markov chain produced by the resulting dynamics.
 
 The experiments related to **PLMC** are available in the notebook `PLMC`.
 
@@ -31,7 +30,6 @@ To get started, install the required dependencies by running the following comma
 
 ```bash
 pip install -r requirements.txt
-
-
+```
 
 
